@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 15px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.titulo{
+    text-align: center;
+}
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    width: 30%;
+    padding: 30px 30px 30px 30px;
+    margin: 120px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 15px 10px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 15px 10px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 15px 10px 5px rgba(0,0,0,0.75);
+}
